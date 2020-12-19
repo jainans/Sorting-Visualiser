@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting-Visualiser</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+        <div class="array_inputs">
+            <p>Array Size :</p>
+            <input id="a_size" type="range" min=20 max=200 step=1 value=90>
+            <p>Speed of Execution :</p>
+            <input id="a_speed" type="range" min=1 max=5 step=1 value=4><br/></br>
+            <button id = "a_generate">
+                Get a new Array! 
+                </button>
+        </div>
+
+        <div class="header_right">
+            <p class="nav-heading">Sorting Visualiser</p>
+            <h2>By : ANSHUMAN JAIN</h2>
+            <div class="algos">
+                <button>Bubble</button>
+                <button>Selection</button>
+                <button>Insertion</button>
+                <button>Merge</button>
+                <button>Quick</button>
+                <button>Heap</button>
+            </div>
+        </div>
+        </nav>
+    </header>
+
+    <section>
+        <div id="info_cont1">
+            
+        </div>
+        <div id="array_container">
+        
+        </div>
+        <div id="info_cont2">
+            
+        </div>
+
+    </section>
+    <footer>
+
+    </footer>
+    
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/visualizations.js"></script>
+    <script src="./scripts/bubble-sort.js"></script>
+    <script src="./scripts/selection-sort.js"></script>
+    <script src="scripts/insertion-sort.js"></script>
+    <script src="scripts/merge-sort.js"></script>
+    <script src="scripts/quick-sort.js"></script>
+    <script src="scripts/heap-sort.js"></script>
+</body>
+</html>
