@@ -5,10 +5,11 @@
     font-size: large;
     font-weight: bold;
     text-transform: uppercase;
+   
   }
-  
+
   nav {
-    background-color: #8b2828;
+    background-color: #2e3f4b;
     color: white;
     display: -ms-grid;
     display: grid;
@@ -20,33 +21,45 @@
   }
   
   nav .array-inputs {
+    float: left;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 60% 40%;
         grid-template-columns: 60% 40%;
-    place-content: center;
-    padding: 5% 0%;
+    /* place-content: center;
+    text-align: center;
+    padding: 5% 5%; */
+  }
+
+  .a_inp{
+    margin-top: 16%;
+   
   }
   
-  nav .array-inputs #a_size {
-    padding: 5% 0%;
+   #a_size, #a_sz, #a_speed, #a_sp {
+    display: inline-block;
+    width: 49%;
+  }
+  #a_sz, #a_sp{
+    font-size: 87%;
+
   }
   
-  nav .array-inputs #a_speed {
-    padding: 5% 0%;
-  }
   
-  nav .array-inputs #a_generate {
-    background-color: transparent;
-    border: none;
+  #a_generate {
+    background-color: rgb(228, 115, 74);
+    border: 2px solid rgb(206, 137, 137);
     outline: none;
-    color: white;
-    padding: 4% 0% 0% 0%;
-    padding-left: 20%;
+    font-size: 80%;
+    width: 100%;
+    color: rgb(238, 225, 225);
+    padding: 7px 20px;
+    border-radius: 10px;
   }
   
-  nav .array-inputs #a_generate:hover {
+  #a_generate:hover {
     cursor: pointer;
+    background-color: rgb(95, 95, 160);
   }
   
   nav .header_right {
@@ -74,11 +87,13 @@
   }
   
   nav .header_right .algos button {
-    background-color: transparent;
-    border: none;
-    color: white;
-    outline: none;text-align: left;
+    background-color: white;
+    border: 2 px solid red;
+    border-radius: 10px;
+    color: black;
+    outline: none;text-align: center;
     padding: 5% 5%;
+    margin: 4px;
     font-size: 1.2vw;
   }
   
@@ -138,4 +153,37 @@
   .hide {
     display: none;
   }
+ 
   
+/*FOOTER*/
+
+footer {
+  background: #16222A;
+  background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+  background: linear-gradient(59deg, #3A6073, #16222A);
+  color: white;
+  margin-top:100px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #FA944B;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
