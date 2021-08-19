@@ -1,3 +1,4 @@
+//Function for selection sort
 function Selection_sort()
 {
     c_delay=0;

@@ -1,3 +1,4 @@
+// Mege Sort function
 function Merge()
 {
     c_delay=0;

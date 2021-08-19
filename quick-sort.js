@@ -1,3 +1,4 @@
+//Quick Sort Function
 function Quick()
 {
     c_delay=0;

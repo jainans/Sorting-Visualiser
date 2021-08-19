@@ -1,4 +1,4 @@
-
+//Main Js 
 
 var inp_as=document.getElementById('a_size'),array_size=inp_as.value;
 

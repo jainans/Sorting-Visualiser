@@ -26,9 +26,7 @@
     display: grid;
     -ms-grid-columns: 60% 40%;
         grid-template-columns: 60% 40%;
-    /* place-content: center;
-    text-align: center;
-    padding: 5% 5%; */
+
   }
 
   .a_inp{
