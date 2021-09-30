@@ -1,4 +1,5 @@
 //Function for selection sort
+// works in O(n^2)
 function Selection_sort()
 {
     c_delay=0;
