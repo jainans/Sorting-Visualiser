@@ -1,4 +1,5 @@
 // Mege Sort function
+//Merge Sort works in O(nlogn)
 function Merge()
 {
     c_delay=0;
