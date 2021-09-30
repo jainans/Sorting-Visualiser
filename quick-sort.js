@@ -1,4 +1,5 @@
 //Quick Sort Function
+//works in O(nlogn)
 function Quick()
 {
     c_delay=0;
