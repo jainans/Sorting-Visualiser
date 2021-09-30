@@ -1,4 +1,5 @@
 //Function for insertion sort
+//works in O(n^2)
 function Insertion()
 {
     c_delay=0;

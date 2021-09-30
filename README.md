@@ -8,7 +8,7 @@ Sorting Visualizer is a web-Application made by using HTML, CSS and JavaScript w
 ---
 ## Sorting Algorithms Used
 
-In This Application I have Used the Following Sorting Algorithms -
+In This Application The Following Sorting Algorithms have been used-
 
 | # | Algoritm | Time Complexity | isStable | In-Place |
 | --- | --- | --- | --- | --- |
